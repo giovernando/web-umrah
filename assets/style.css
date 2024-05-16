@@ -1,0 +1,25 @@
+.carousel-item img {
+    border-radius: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-item img {
+        height: 80vh;
+        object-fit: cover;
+    }
+}
+
+
+.card-umrah span {
+    border: 3px solid black;
+    text-align: center;
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin-top: -50px;
+    margin-inline: auto;
+    z-index: 999;
+    background-color: #fff;
+    font-size: 3rem;
+    border-radius: 100%;
+}
